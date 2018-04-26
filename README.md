@@ -157,19 +157,6 @@ $ npm i -g exp
 $ exp publish
 ```
 
-### Building an Expo "standalone" app
-
-You can also use a service like [Expo's standalone builds](https://docs.expo.io/versions/latest/guides/building-standalone-apps.html) if you want to get an IPA/APK for distribution without having to build the native code yourself.
-
-### Ejecting from Create React Native App
-
-If you want to build and deploy your app yourself, you'll need to eject from CRNA and use Xcode and Android Studio.
-
-This is usually as simple as running `npm run eject` in your project, which will walk you through the process. Make sure to install `react-native-cli` and follow the [native code getting started guide for React Native](https://facebook.github.io/react-native/docs/getting-started.html).
-
-#### Should I Use ExpoKit?
-
-If you have made use of Expo APIs while working on your project, then those API calls will stop working if you eject to a regular React Native project. If you want to continue using those APIs, you can eject to "React Native + ExpoKit" which will still allow you to build your own native code and continue using the Expo APIs. See the [ejecting guide](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md) for more details about this option.
 
 ## Troubleshooting
 
